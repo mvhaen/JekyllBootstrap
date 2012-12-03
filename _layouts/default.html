@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<link href='css/reset.css' rel='stylesheet' type='text/css'>
+	<link href='css/main.css' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>		
+    <script type="text/javascript">
+        $(function() {
+
+        });
+
+    </script>
+	<title>{{ page.title }}</title>
+</head>
+<body>
+	<div id="narrow">
+		{% include header.html %}
+		<div id="content">
+			{{ content }}		
+		</div>		
+	</div>
+	{% include footer.html %}
+	<!-- The JavaScript -->
+
+</body>
+</html>
